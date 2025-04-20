@@ -1,0 +1,27 @@
+{
+  "name": "hello-http-stream",
+  "version": "1.0.0",
+  "description": "HTTP stream example",
+  "keywords": [
+    "http-stream"
+  ],
+  "homepage": "https://github.com/almond-bongbong/hello-http-stream#readme",
+  "bugs": {
+    "url": "https://github.com/almond-bongbong/hello-http-stream/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almond-bongbong/hello-http-stream.git"
+  },
+  "license": "ISC",
+  "author": "max",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
